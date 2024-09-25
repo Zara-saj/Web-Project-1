@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+
+    <title>Register</title>
+</head>
+
+<body>
+
+    <!-- Registration form section -->
+    <section>
+        <h1>Please fill out the form below</h1>
+        <!--Fieldset draws a box around the related elements.-->
+        <fieldset>
+          <form action="/submit" method="post">
+              <!-- Label and input for First name -->
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" required><br><br>
+
+              <!-- Label and input for Last name -->
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" required><br><br>
+
+              <!-- Label and input for Password -->
+              <label for="password">Password:</label><br>
+              <input type="password" id="password" name="password" minlength="8" required><br><br>
+
+              <!-- Label and input for Email -->
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+
+              <!-- Label and input for Birthday -->
+              <label for="birthday">Birthday:</label><br>
+              <input type="date" id="birthday" name="birthday" required><br><br>
+
+              <!-- Submit and Reset buttons -->
+              <input type="submit" value="Submit">
+              <input type="reset" value="Reset">
+          </form>
+        </fieldset>
+    </section><br>
+
+    <!-- Link to go back to the home page -->
+    <footer>
+        <a href="index.html">Home Page</a>
+    </footer>
+
+</body>
+
+</html>
